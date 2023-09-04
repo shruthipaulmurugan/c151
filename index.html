@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="./assets/thumbnails/car_scene"></script>
+  </head>
+  <body>
+    <a-scene background = "color: white">
+      <a-entity id="look" look-controls camera position="0 2 20"></a-entity>
+
+      <a-assets timeout = "10000"></a-assets>
+
+      <a-entity id="car" gltf-model = "#car" position = "0 0 -100"></a-entity>
+    </a-scene>
+  </body>
+</html>
